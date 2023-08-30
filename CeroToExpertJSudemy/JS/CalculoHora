@@ -1,0 +1,17 @@
+let hora = new Date();
+
+let horaactual = hora.getHours()+":"+hora.getMinutes()+":"+hora.getSeconds()
+let horas = hora.getHours();
+
+console.log(horaactual);
+console.log(horas);
+
+if (horas >= 6 && horas < 12){
+    console.log("Buenos Dias");
+} else if(horas >= 12 && horas < 20){
+    console.log("Buenas Tardes");
+} else if (horas >= 20 && horas < 6){
+    console.log("Buenas Noches");
+}
+
+//Ejercicio hecho por Daniel Bellés
